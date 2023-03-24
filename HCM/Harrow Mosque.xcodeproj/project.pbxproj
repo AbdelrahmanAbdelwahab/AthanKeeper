@@ -12,7 +12,6 @@
 		BB2BC69A28A64543002F25D7 /* CompassMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */; };
 		BB2BC69C28A6455E002F25D7 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2BC69B28A6455C002F25D7 /* Marker.swift */; };
 		BB2BC69F28A6645D002F25D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2BC69E28A6645D002F25D7 /* Assets.xcassets */; };
-		BB6D93F128AF82CA00AD9E52 /* RSSListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D93E828AF82CA00AD9E52 /* RSSListItemView.swift */; };
 		BB6D93F228AF82CA00AD9E52 /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D93E928AF82CA00AD9E52 /* HTMLView.swift */; };
 		BB6D93F328AF82CA00AD9E52 /* RSSListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D93EA28AF82CA00AD9E52 /* RSSListView.swift */; };
 		BB6D93F428AF82CA00AD9E52 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6D93EB28AF82CA00AD9E52 /* LoadingView.swift */; };
@@ -38,7 +37,6 @@
 		BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMarkerView.swift; sourceTree = "<group>"; };
 		BB2BC69B28A6455C002F25D7 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		BB2BC69E28A6645D002F25D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB6D93E828AF82CA00AD9E52 /* RSSListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSListItemView.swift; sourceTree = "<group>"; };
 		BB6D93E928AF82CA00AD9E52 /* HTMLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLView.swift; sourceTree = "<group>"; };
 		BB6D93EA28AF82CA00AD9E52 /* RSSListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSListView.swift; sourceTree = "<group>"; };
 		BB6D93EB28AF82CA00AD9E52 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -77,14 +75,12 @@
 				4D7818D4F6D318189CE8287E /* Pods-Again.debug.xcconfig */,
 				249073E618F9DE45843EC9D1 /* Pods-Again.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		BB6D93E728AF82CA00AD9E52 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				BB6D93E828AF82CA00AD9E52 /* RSSListItemView.swift */,
 				BB6D93E928AF82CA00AD9E52 /* HTMLView.swift */,
 				BB6D93EA28AF82CA00AD9E52 /* RSSListView.swift */,
 				BB6D93EB28AF82CA00AD9E52 /* LoadingView.swift */,
@@ -98,14 +94,6 @@
 				BB6D93ED28AF82CA00AD9E52 /* FeedViewModel.swift */,
 			);
 			path = viewmodel;
-			sourceTree = "<group>";
-		};
-		BB6D93EE28AF82CA00AD9E52 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = model;
-			path = "../../../rss-reader-ios-main/rss-correct/model";
 			sourceTree = "<group>";
 		};
 		BBA205AB28A7CC1E000993B5 /* Web Service */ = {
@@ -144,7 +132,6 @@
 				BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */,
 				BB2BC69B28A6455C002F25D7 /* Marker.swift */,
 				BBA205B228A7CE59000993B5 /* QuranView.swift */,
-				BB6D93EE28AF82CA00AD9E52 /* model */,
 				BB6D93E728AF82CA00AD9E52 /* view */,
 				BB6D93EC28AF82CA00AD9E52 /* viewmodel */,
 				BBDF254828A51DE000643033 /* ContentView.swift */,
@@ -168,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBDF254228A51DE000643033 /* Again */ = {
+		BBDF254228A51DE000643033 /* AthanKeeper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBDF255128A51DE100643033 /* Build configuration list for PBXNativeTarget "Again" */;
+			buildConfigurationList = BBDF255128A51DE100643033 /* Build configuration list for PBXNativeTarget "AthanKeeper" */;
 			buildPhases = (
 				6FD3E2D7C0A8D2EB9848D07D /* [CP] Check Pods Manifest.lock */,
 				BBDF253F28A51DE000643033 /* Sources */,
@@ -182,7 +169,7 @@
 			);
 			dependencies = (
 			);
-			name = Again;
+			name = AthanKeeper;
 			packageProductDependencies = (
 				BBDF255928A51E5800643033 /* UIOnboarding */,
 				BBED71E028A55636006C9EA2 /* Adhan */,
@@ -217,20 +204,20 @@
 			);
 			mainGroup = BBDF253A28A51DE000643033;
 			packageReferences = (
-				BBDF255828A51E5800643033 /* XCRemoteSwiftPackageReference "UIOnboarding.git" */,
+				BBDF255828A51E5800643033 /* XCRemoteSwiftPackageReference "UIOnboarding" */,
 				BBED71DF28A55636006C9EA2 /* XCRemoteSwiftPackageReference "adhan-swift" */,
 				BBE4260A28AA55780068B75D /* XCRemoteSwiftPackageReference "adhan-swift" */,
 				BBE4260B28AA55930068B75D /* XCRemoteSwiftPackageReference "adhan-swift" */,
-				BBF2AEBF28AD57440021C04B /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				BBF2AEC228AD577B0021C04B /* XCRemoteSwiftPackageReference "SwiftyJSON.git" */,
-				BBF2AEC528AD57C20021C04B /* XCRemoteSwiftPackageReference "TinyConstraints.git" */,
-				BB22156728AECBD600D4B006 /* XCRemoteSwiftPackageReference "FeedKit.git" */,
+				BBF2AEBF28AD57440021C04B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BBF2AEC228AD577B0021C04B /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				BBF2AEC528AD57C20021C04B /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+				BB22156728AECBD600D4B006 /* XCRemoteSwiftPackageReference "FeedKit" */,
 			);
 			productRefGroup = BBDF253A28A51DE000643033;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBDF254228A51DE000643033 /* Again */,
+				BBDF254228A51DE000643033 /* AthanKeeper */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +283,6 @@
 			files = (
 				BBA205BC28A7CE93000993B5 /* DetailSurahModel.swift in Sources */,
 				BBA205B328A7CE5A000993B5 /* QuranView.swift in Sources */,
-				BB6D93F128AF82CA00AD9E52 /* RSSListItemView.swift in Sources */,
 				BB2BC69A28A64543002F25D7 /* CompassMarkerView.swift in Sources */,
 				BBA205AF28A7CC1E000993B5 /* ApiServices.swift in Sources */,
 				BBDF255628A51E1200643033 /* UIOnboardingHelper.swift in Sources */,
@@ -437,27 +423,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 279476NR7A;
+				DEVELOPMENT_TEAM = 9B4N3H28J7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Athan Keeper";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortraitUpsideDown;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.babyyoda777.Prayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farmacinenow;
 				PRODUCT_NAME = HCM;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,27 +459,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 279476NR7A;
+				DEVELOPMENT_TEAM = 9B4N3H28J7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Athan Keeper";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortraitUpsideDown;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.babyyoda777.Prayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farmacinenow;
 				PRODUCT_NAME = HCM;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -510,7 +500,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBDF255128A51DE100643033 /* Build configuration list for PBXNativeTarget "Again" */ = {
+		BBDF255128A51DE100643033 /* Build configuration list for PBXNativeTarget "AthanKeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBDF255228A51DE100643033 /* Debug */,
@@ -522,7 +512,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BB22156728AECBD600D4B006 /* XCRemoteSwiftPackageReference "FeedKit.git" */ = {
+		BB22156728AECBD600D4B006 /* XCRemoteSwiftPackageReference "FeedKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nmdias/FeedKit.git";
 			requirement = {
@@ -530,7 +520,7 @@
 				minimumVersion = 9.0.0;
 			};
 		};
-		BBDF255828A51E5800643033 /* XCRemoteSwiftPackageReference "UIOnboarding.git" */ = {
+		BBDF255828A51E5800643033 /* XCRemoteSwiftPackageReference "UIOnboarding" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lascic/UIOnboarding.git";
 			requirement = {
@@ -562,7 +552,7 @@
 				kind = branch;
 			};
 		};
-		BBF2AEBF28AD57440021C04B /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		BBF2AEBF28AD57440021C04B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -570,7 +560,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		BBF2AEC228AD577B0021C04B /* XCRemoteSwiftPackageReference "SwiftyJSON.git" */ = {
+		BBF2AEC228AD577B0021C04B /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
 			requirement = {
@@ -578,7 +568,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		BBF2AEC528AD57C20021C04B /* XCRemoteSwiftPackageReference "TinyConstraints.git" */ = {
+		BBF2AEC528AD57C20021C04B /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/roberthein/TinyConstraints.git";
 			requirement = {
@@ -591,12 +581,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		BB22156828AECBD600D4B006 /* FeedKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BB22156728AECBD600D4B006 /* XCRemoteSwiftPackageReference "FeedKit.git" */;
+			package = BB22156728AECBD600D4B006 /* XCRemoteSwiftPackageReference "FeedKit" */;
 			productName = FeedKit;
 		};
 		BBDF255928A51E5800643033 /* UIOnboarding */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BBDF255828A51E5800643033 /* XCRemoteSwiftPackageReference "UIOnboarding.git" */;
+			package = BBDF255828A51E5800643033 /* XCRemoteSwiftPackageReference "UIOnboarding" */;
 			productName = UIOnboarding;
 		};
 		BBED71E028A55636006C9EA2 /* Adhan */ = {

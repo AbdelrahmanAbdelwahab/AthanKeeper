@@ -223,7 +223,7 @@ struct ContentView: View {
                             if feedViewModel.isLoading {
                                 LoadingView()
                             } else {
-                                RSSListView(rssItems: feedViewModel.rssItems)
+//                                RSSListView(rssItems: feedViewModel.rssItems)
                             }
 
                         }

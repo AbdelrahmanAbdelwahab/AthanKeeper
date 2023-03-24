@@ -7,17 +7,18 @@
 
 
 import SwiftUI
+import FeedKit
 
 struct RSSListView: View {
-    let rssItems: [RSSItem]
+    let rssItems: [RSSFeed]
     
     @State private var searchText: String = ""
     
-    var filteredItems: [RSSItem] {
+    var filteredItems: [RSSFeed] {
         if searchText.count == 0 {
             return rssItems
         } else  {
-            return rssItems.filter { $0.title.lowercased().contains(searchText.lowercased())
+            return rssItems.filter { $0.title?.lowercased().contains(searchText.lowercased()) ?? false
             }
         }
     }
@@ -25,6 +26,7 @@ struct RSSListView: View {
     var body: some View {
         NavigationView {
             List {
+               /*
                 ForEach(filteredItems) { item in
                     Section{
                     NavigationLink {
@@ -34,6 +36,7 @@ struct RSSListView: View {
                     }
                 }
                 }
+                */
             }
             .environment(\.defaultMinListRowHeight, 110)
             .listStyle(InsetGroupedListStyle())
