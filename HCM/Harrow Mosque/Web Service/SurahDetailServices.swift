@@ -27,7 +27,7 @@ class SurahDetailServices : ObservableObject{
                 return
             }
           
-            if response.statusCode == 200{
+            if response.statusCode == 200 {
                 guard let data = data else {
                     return
                 }

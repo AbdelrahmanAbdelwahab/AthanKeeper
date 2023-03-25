@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9821425026A1A720CC7F6CF7 /* Pods_Again.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6352B20466E536B15A4E17CB /* Pods_Again.framework */; };
+		AA9A2C2829CE762900650B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9A2C2729CE762900650B30 /* AppDelegate.swift */; };
 		BB22156928AECBD600D4B006 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = BB22156828AECBD600D4B006 /* FeedKit */; };
 		BB2BC69A28A64543002F25D7 /* CompassMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */; };
 		BB2BC69C28A6455E002F25D7 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2BC69B28A6455C002F25D7 /* Marker.swift */; };
@@ -34,6 +35,7 @@
 		249073E618F9DE45843EC9D1 /* Pods-Again.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Again.release.xcconfig"; path = "Target Support Files/Pods-Again/Pods-Again.release.xcconfig"; sourceTree = "<group>"; };
 		4D7818D4F6D318189CE8287E /* Pods-Again.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Again.debug.xcconfig"; path = "Target Support Files/Pods-Again/Pods-Again.debug.xcconfig"; sourceTree = "<group>"; };
 		6352B20466E536B15A4E17CB /* Pods_Again.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Again.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9A2C2729CE762900650B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMarkerView.swift; sourceTree = "<group>"; };
 		BB2BC69B28A6455C002F25D7 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		BB2BC69E28A6645D002F25D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				BBDF254628A51DE000643033 /* HarrowMosqueApp.swift */,
+				AA9A2C2729CE762900650B30 /* AppDelegate.swift */,
 				BBA205AB28A7CC1E000993B5 /* Web Service */,
 				BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */,
 				BB2BC69B28A6455C002F25D7 /* Marker.swift */,
@@ -289,6 +292,7 @@
 				BBA205BB28A7CE93000993B5 /* SurahModel.swift in Sources */,
 				BB6D93F228AF82CA00AD9E52 /* HTMLView.swift in Sources */,
 				BB6D93F428AF82CA00AD9E52 /* LoadingView.swift in Sources */,
+				AA9A2C2829CE762900650B30 /* AppDelegate.swift in Sources */,
 				BBDF255728A51E1200643033 /* OnboardingView.swift in Sources */,
 				BB6D93F328AF82CA00AD9E52 /* RSSListView.swift in Sources */,
 				BBDF254928A51DE000643033 /* ContentView.swift in Sources */,
