@@ -359,7 +359,7 @@ class CompassHeading: NSObject, ObservableObject, CLLocationManagerDelegate {
     }
     
     private func setup() {
-        self.locationManager.requestWhenInUseAuthorization()
+//        self.locationManager.requestWhenInUseAuthorization()
         if CLLocationManager.headingAvailable() {
             self.locationManager.delegate = self
             self.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
