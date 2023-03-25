@@ -14,7 +14,7 @@ class SurahDetailServices : ObservableObject{
     
     func getSurah(surahId : Int){
     
-        guard let url = URL(string: "https://api.alquran.cloud/v1/surah/\(surahId)/ar.alafasy") else{
+        guard let url = URL(string: "https://api.alquran.cloud/v1/surah/\(surahId)/ar.alafasy") else {
             fatalError("Fatal Error")
         }
         

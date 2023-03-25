@@ -125,7 +125,6 @@ struct ContentView: View {
                     } else if self.selected == 1 {
                         GeometryReader { _ in
                             QuranView()
-                            
                         }
                         
                     }

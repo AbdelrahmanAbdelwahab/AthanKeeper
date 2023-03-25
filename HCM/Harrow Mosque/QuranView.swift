@@ -13,57 +13,19 @@ struct QuranView: View {
     var body: some View {
         NavigationView{
             if #available(iOS 15.0, *){
-            List{
-                
+                List{
+                    
                     ForEach(dataSurah.surahData){
                         surah in
                         Section{
-                        NavigationLink(destination : SurahDetail(number: surah.number,title: surah.englishName)){
-                            HStack(spacing : 14){
-
+                            NavigationLink(destination : SurahDetail(number: surah.number,title: surah.englishName)){
+                                HStack(spacing : 14){
+                                    
                                     Text("\(surah.number)")
                                         .foregroundColor(Color.primary)
                                         .frame(width : 45, height: 45)
                                         .background(.ultraThinMaterial)
                                         .clipShape(RoundedRectangle(cornerRadius: 10))
-                                VStack(alignment : .leading, spacing: 4){
-                                    Text("\(surah.name)")
-                                        .font(.headline)
-                                    Text("Surah \(surah.englishName)・\(surah.revelationType)")
-                                        .font(.caption)
-                                }
-                            }
-                        }
-                    }
-                    }
-                    .padding([.leading, .trailing], 15)
-                    if (dataSurah.isLoading){
-                        VStack{
-                            Indicator()
-                            Text("Loading...")
-                        }
-                        .shadow(color: Color.secondary.opacity(0.3), radius: 20)
-                    }
-                
-            }
-            .navigationBarTitle("Qur'an")
-            .environment(\.defaultMinListRowHeight, 110)
-            .listStyle(InsetGroupedListStyle()) 
-            .environment(\.horizontalSizeClass, .regular)
-            }else{
-                
-                List{
-
-                        ForEach(dataSurah.surahData){
-                            surah in
-                            Section{
-                            NavigationLink(destination : SurahDetail(number: surah.number,title: surah.englishName)){
-                                HStack(spacing : 14){
-                                         Text("\(surah.number)")
-                                             .foregroundColor(Color.primary)
-                                             .frame(width : 45, height: 45)
-                                             .clipShape(RoundedRectangle(cornerRadius: 10))
-                                     
                                     VStack(alignment : .leading, spacing: 4){
                                         Text("\(surah.name)")
                                             .font(.headline)
@@ -73,18 +35,56 @@ struct QuranView: View {
                                 }
                             }
                         }
+                    }
+                    .padding([.leading, .trailing], 15)
+                    if (dataSurah.isLoading){
+                        VStack{
+                            Indicator()
+                            Text("Loading...")
                         }
-                        .padding([.leading, .trailing], 15)
-                        if (dataSurah.isLoading){
-                            VStack{
-                                Indicator()
-                                Text("Loading...")
-                            }
-                            .shadow(color: Color.secondary.opacity(0.3), radius: 20)
-                        }
+                        .shadow(color: Color.secondary.opacity(0.3), radius: 20)
+                    }
                     
                 }
-            
+                .navigationBarTitle("Qur'an")
+                .environment(\.defaultMinListRowHeight, 110)
+                .listStyle(InsetGroupedListStyle())
+                .environment(\.horizontalSizeClass, .regular)
+            }else{
+                
+                List{
+                    
+                    ForEach(dataSurah.surahData){
+                        surah in
+                        Section{
+                            NavigationLink(destination : SurahDetail(number: surah.number,title: surah.englishName)){
+                                HStack(spacing : 14){
+                                    Text("\(surah.number)")
+                                        .foregroundColor(Color.primary)
+                                        .frame(width : 45, height: 45)
+                                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                                    
+                                    VStack(alignment : .leading, spacing: 4){
+                                        Text("\(surah.name)")
+                                            .font(.headline)
+                                        Text("Surah \(surah.englishName)・\(surah.revelationType)")
+                                            .font(.caption)
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .padding([.leading, .trailing], 15)
+                    if (dataSurah.isLoading){
+                        VStack{
+                            Indicator()
+                            Text("Loading...")
+                        }
+                        .shadow(color: Color.secondary.opacity(0.3), radius: 20)
+                    }
+                    
+                }
+                
             }
         }
         .offset(y: -60)
@@ -129,7 +129,7 @@ class SoundManager : ObservableObject{
 
 
 
-struct SurahDetail : View{
+struct SurahDetail : View {
     var number : Int
     var title : String
     @State var playButtonId : Int = 0
@@ -188,28 +188,28 @@ struct SurahDetail : View{
                                             .background(.ultraThinMaterial)
                                             .clipShape(RoundedRectangle(cornerRadius: 7))
                                         }
-
-                                     } else {
-                                         if (data.id == playButtonId &&
-                                             soundManager.isPlaying == true){
-                                             HStack{
-                                                 Image(systemName: "pause.fill")
-                                                 Text("Audio")
-                                             }
-                                             .padding([.top, .bottom], 5)
-                                             .padding([.leading, .trailing], 14)
-                                             .clipShape(RoundedRectangle(cornerRadius: 7))
-                                         }else{
-                                             HStack{
-                                                 Image(systemName: "play.fill")
-                                                 Text("Audio")
-                                             }
-                                             .padding([.top, .bottom], 5)
-                                             .padding([.leading, .trailing], 14)
-                                             .clipShape(RoundedRectangle(cornerRadius: 7))
-                                         }
-
-                                     }
+                                        
+                                    } else {
+                                        if (data.id == playButtonId &&
+                                            soundManager.isPlaying == true){
+                                            HStack{
+                                                Image(systemName: "pause.fill")
+                                                Text("Audio")
+                                            }
+                                            .padding([.top, .bottom], 5)
+                                            .padding([.leading, .trailing], 14)
+                                            .clipShape(RoundedRectangle(cornerRadius: 7))
+                                        }else{
+                                            HStack{
+                                                Image(systemName: "play.fill")
+                                                Text("Audio")
+                                            }
+                                            .padding([.top, .bottom], 5)
+                                            .padding([.leading, .trailing], 14)
+                                            .clipShape(RoundedRectangle(cornerRadius: 7))
+                                        }
+                                        
+                                    }
                                     
                                     
                                 }
@@ -232,7 +232,15 @@ struct SurahDetail : View{
     }
 }
 
-struct Indicator : UIViewRepresentable{
+/*
+struct SurahDetail_Previews: PreviewProvider {
+    static var previews: some View {
+        SurahDetail(number: 0, title: "")
+    }
+}
+ */
+
+struct Indicator : UIViewRepresentable {
     
     
     func makeUIView(context: UIViewRepresentableContext<Indicator>) -> UIActivityIndicatorView {
