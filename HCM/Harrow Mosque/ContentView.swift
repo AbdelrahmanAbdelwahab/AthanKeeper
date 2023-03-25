@@ -22,8 +22,8 @@ struct ContentView: View {
     let coordinates = Coordinates(latitude: 51.5806, longitude: 0.3420)
     let size = UIScreen.main.bounds
     
-    @State  var sunrize : String
-    @State  var fajr : String
+    @State var sunrize : String
+    @State var fajr : String
     @State var dhuhr : String
     @State var asr : String
     @State var maghrib : String

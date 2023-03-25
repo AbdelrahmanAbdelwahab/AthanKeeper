@@ -33,8 +33,6 @@
 
 /* Begin PBXFileReference section */
 		12F05A49DF0C49483AC552D8 /* Pods-AthanKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AthanKeeper.debug.xcconfig"; path = "Target Support Files/Pods-AthanKeeper/Pods-AthanKeeper.debug.xcconfig"; sourceTree = "<group>"; };
-		249073E618F9DE45843EC9D1 /* Pods-Again.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Again.release.xcconfig"; path = "Target Support Files/Pods-Again/Pods-Again.release.xcconfig"; sourceTree = "<group>"; };
-		4D7818D4F6D318189CE8287E /* Pods-Again.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Again.debug.xcconfig"; path = "Target Support Files/Pods-Again/Pods-Again.debug.xcconfig"; sourceTree = "<group>"; };
 		AA9A2C2729CE762900650B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA9A2C2B29CE7E9400650B30 /* AthanKeeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AthanKeeper-Info.plist"; sourceTree = "<group>"; };
 		BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMarkerView.swift; sourceTree = "<group>"; };
@@ -77,8 +75,6 @@
 		24DC5C93CF1D8E61605B9BC0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4D7818D4F6D318189CE8287E /* Pods-Again.debug.xcconfig */,
-				249073E618F9DE45843EC9D1 /* Pods-Again.release.xcconfig */,
 				12F05A49DF0C49483AC552D8 /* Pods-AthanKeeper.debug.xcconfig */,
 				F34B5C85C8C59D24ECFCEA96 /* Pods-AthanKeeper.release.xcconfig */,
 			);
