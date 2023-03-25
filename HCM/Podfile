@@ -1,7 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 
-target 'Again' do
+target 'AthanKeeper' do
   use_frameworks!
   pod 'FeedKit', '~> 9.0'
 

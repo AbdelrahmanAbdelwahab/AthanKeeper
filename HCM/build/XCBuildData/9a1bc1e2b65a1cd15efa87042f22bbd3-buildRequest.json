@@ -1,0 +1,48 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98c9797c611eb56b9aba9e48390510fc4d"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98de33db7b7ff9516a8c21b9c6656e4e6b"
+    }
+  ],
+  "containerPath" : "/Users/abdelwahab/Documents/MyApps/HCM-iOS-Beta/HCM/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/abdelwahab/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/abdelwahab/Library/Developer/Xcode/DerivedData/Pods-cwgcjbanugcfeqdtjdhmhtfbdadc/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/abdelwahab/Library/Developer/Xcode/DerivedData/Pods-cwgcjbanugcfeqdtjdhmhtfbdadc/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

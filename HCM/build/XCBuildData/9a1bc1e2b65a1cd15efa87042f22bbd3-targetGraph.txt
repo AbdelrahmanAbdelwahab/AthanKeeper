@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+FeedKit in Pods, no dependencies
+Pods-Again in Pods, depends on:
+FeedKit in Pods (explicit)

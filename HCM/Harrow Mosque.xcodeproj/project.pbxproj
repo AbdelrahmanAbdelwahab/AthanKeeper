@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9821425026A1A720CC7F6CF7 /* Pods_Again.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6352B20466E536B15A4E17CB /* Pods_Again.framework */; };
 		AA9A2C2829CE762900650B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9A2C2729CE762900650B30 /* AppDelegate.swift */; };
 		BB22156928AECBD600D4B006 /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = BB22156828AECBD600D4B006 /* FeedKit */; };
 		BB2BC69A28A64543002F25D7 /* CompassMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */; };
@@ -29,13 +28,15 @@
 		BBDF255A28A51E5800643033 /* UIOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = BBDF255928A51E5800643033 /* UIOnboarding */; };
 		BBDF256228A5240B00643033 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDF256128A5240B00643033 /* Launch Screen.storyboard */; };
 		BBED71E128A55636006C9EA2 /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = BBED71E028A55636006C9EA2 /* Adhan */; };
+		F59284D6AAB2FF759E71F558 /* Pods_AthanKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FD045C0977BE04B3523F33 /* Pods_AthanKeeper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12F05A49DF0C49483AC552D8 /* Pods-AthanKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AthanKeeper.debug.xcconfig"; path = "Target Support Files/Pods-AthanKeeper/Pods-AthanKeeper.debug.xcconfig"; sourceTree = "<group>"; };
 		249073E618F9DE45843EC9D1 /* Pods-Again.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Again.release.xcconfig"; path = "Target Support Files/Pods-Again/Pods-Again.release.xcconfig"; sourceTree = "<group>"; };
 		4D7818D4F6D318189CE8287E /* Pods-Again.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Again.debug.xcconfig"; path = "Target Support Files/Pods-Again/Pods-Again.debug.xcconfig"; sourceTree = "<group>"; };
-		6352B20466E536B15A4E17CB /* Pods_Again.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Again.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9A2C2729CE762900650B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA9A2C2B29CE7E9400650B30 /* AthanKeeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AthanKeeper-Info.plist"; sourceTree = "<group>"; };
 		BB2BC69928A64540002F25D7 /* CompassMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMarkerView.swift; sourceTree = "<group>"; };
 		BB2BC69B28A6455C002F25D7 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		BB2BC69E28A6645D002F25D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +55,8 @@
 		BBDF255428A51E1200643033 /* UIOnboardingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIOnboardingHelper.swift; sourceTree = "<group>"; };
 		BBDF255528A51E1200643033 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		BBDF256128A5240B00643033 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E3FD045C0977BE04B3523F33 /* Pods_AthanKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AthanKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34B5C85C8C59D24ECFCEA96 /* Pods-AthanKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AthanKeeper.release.xcconfig"; path = "Target Support Files/Pods-AthanKeeper/Pods-AthanKeeper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +67,7 @@
 				BB22156928AECBD600D4B006 /* FeedKit in Frameworks */,
 				BBDF255A28A51E5800643033 /* UIOnboarding in Frameworks */,
 				BBED71E128A55636006C9EA2 /* Adhan in Frameworks */,
-				9821425026A1A720CC7F6CF7 /* Pods_Again.framework in Frameworks */,
+				F59284D6AAB2FF759E71F558 /* Pods_AthanKeeper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,8 @@
 			children = (
 				4D7818D4F6D318189CE8287E /* Pods-Again.debug.xcconfig */,
 				249073E618F9DE45843EC9D1 /* Pods-Again.release.xcconfig */,
+				12F05A49DF0C49483AC552D8 /* Pods-AthanKeeper.debug.xcconfig */,
+				F34B5C85C8C59D24ECFCEA96 /* Pods-AthanKeeper.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 		BBDF253A28A51DE000643033 = {
 			isa = PBXGroup;
 			children = (
+				AA9A2C2B29CE7E9400650B30 /* AthanKeeper-Info.plist */,
 				BBDF254528A51DE000643033 /* Harrow Mosque */,
 				BB80DEC628A80FDA00762406 /* HCM.app */,
 				24DC5C93CF1D8E61605B9BC0 /* Pods */,
@@ -150,7 +156,7 @@
 		DEC20C2D7DC0687A919A8096 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6352B20466E536B15A4E17CB /* Pods_Again.framework */,
+				E3FD045C0977BE04B3523F33 /* Pods_AthanKeeper.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -244,15 +250,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Again/Pods-Again-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AthanKeeper/Pods-AthanKeeper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Again/Pods-Again-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-AthanKeeper/Pods-AthanKeeper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Again/Pods-Again-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AthanKeeper/Pods-AthanKeeper-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6FD3E2D7C0A8D2EB9848D07D /* [CP] Check Pods Manifest.lock */ = {
@@ -270,7 +276,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Again-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AthanKeeper-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -422,7 +428,7 @@
 		};
 		BBDF255228A51DE100643033 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D7818D4F6D318189CE8287E /* Pods-Again.debug.xcconfig */;
+			baseConfigurationReference = 12F05A49DF0C49483AC552D8 /* Pods-AthanKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,6 +440,7 @@
 				DEVELOPMENT_TEAM = 9B4N3H28J7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AthanKeeper-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Athan Keeper";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -458,7 +465,7 @@
 		};
 		BBDF255328A51DE100643033 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 249073E618F9DE45843EC9D1 /* Pods-Again.release.xcconfig */;
+			baseConfigurationReference = F34B5C85C8C59D24ECFCEA96 /* Pods-AthanKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,6 +477,7 @@
 				DEVELOPMENT_TEAM = 9B4N3H28J7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AthanKeeper-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Athan Keeper";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

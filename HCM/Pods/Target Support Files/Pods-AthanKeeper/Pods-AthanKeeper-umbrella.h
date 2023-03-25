@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AgainVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AgainVersionString[];
+FOUNDATION_EXPORT double Pods_AthanKeeperVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_AthanKeeperVersionString[];
 
