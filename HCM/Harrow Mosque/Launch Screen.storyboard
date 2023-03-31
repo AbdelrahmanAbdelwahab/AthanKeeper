@@ -31,24 +31,15 @@
                                     <constraint firstAttribute="width" secondItem="jEm-6W-phY" secondAttribute="height" multiplier="1:1" id="ypD-mM-Zip"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐍 🐰 ❤️" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awa-aK-kAe">
-                                <rect key="frame" x="16" y="820.5" width="382" height="33.5"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="awa-aK-kAe" secondAttribute="bottom" constant="8" id="8oo-hP-k0x"/>
                             <constraint firstItem="jEm-6W-phY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="K11-Rv-c6U"/>
                             <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
                             <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
-                            <constraint firstItem="awa-aK-kAe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bUW-L8-vU9"/>
                             <constraint firstItem="jEm-6W-phY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="de2-4x-x31"/>
-                            <constraint firstItem="awa-aK-kAe" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="16" id="hr8-5C-MI0"/>
                         </constraints>
                     </view>
                 </viewController>

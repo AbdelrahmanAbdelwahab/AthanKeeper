@@ -12,7 +12,7 @@ import Combine
 class SurahDetailServices : ObservableObject{
     @Published var surahDetail : [Ayahs] = []
     
-    func getSurah(surahId : Int){
+    func getSurah(surahId : Int ) {
     
         guard let url = URL(string: "https://api.alquran.cloud/v1/surah/\(surahId)/ar.alafasy") else {
             fatalError("Fatal Error")

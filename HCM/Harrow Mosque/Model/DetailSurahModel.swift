@@ -21,7 +21,7 @@ struct DataDetail : Codable{
     var ayahs : [Ayahs]
 }
 
-struct Ayahs : Codable, Identifiable{
+struct Ayahs : Codable, Identifiable {
     var number : Int
     var audio : String
     var text : String
